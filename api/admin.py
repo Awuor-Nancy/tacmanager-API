@@ -17,8 +17,8 @@ admin.site.register(Tax, TaxAdmin)
 
 
 class TeamAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name','title')
-    search_fields = ('first_name', 'last_name', 'title')
+    list_display = ('first_name', 'last_name','title' , 'password', 'email')
+    search_fields = ('first_name', 'last_name', 'title' , 'password', 'email')
 
 admin.site.register(Team, TeamAdmin)    
 

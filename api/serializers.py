@@ -16,7 +16,7 @@ class TaxSerializer(serializers.ModelSerializer):
 class TeamSerializer(serializers.ModelSerializer):
     class Meta:
         model = Team
-        fields = ('first_name', 'last_name', 'title')
+        fields = ('first_name', 'last_name', 'title', 'email', 'password')
 
                 
 
